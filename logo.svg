@@ -1,0 +1,34 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9D50BB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#BB86FC;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <path d="M50 5 L90 28 L90 72 L50 95 L10 72 L10 28 Z" fill="#0B011D" stroke="url(#purpleGrad)" stroke-width="1.5"/>
+  
+  <text x="42" y="62" 
+        font-family="Times New Roman, serif" 
+        font-style="italic" 
+        font-size="50" 
+        text-anchor="middle" 
+        fill="url(#purpleGrad)" 
+        opacity="0.9"
+        letter-spacing="-2">
+    V
+  </text>
+  
+  <text x="60" y="68" 
+        font-family="Times New Roman, serif" 
+        font-style="italic" 
+        font-size="32" 
+        text-anchor="middle" 
+        fill="#F5F5DC">
+    R
+  </text>
+  
+  <circle cx="58" cy="72" r="1.5" fill="#BB86FC">
+    <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>

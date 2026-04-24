@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Path | Vahy R.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
+</head>
+<body class="career-page">
+    <header>
+        <div class="logo">Vahy R.</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="parcours.html" class="active">Career Path</a></li>
+                <li><a href="projet.html">Projects</a></li>
+                <li><a href="valeurs.html">Values & Interests</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="Profil.jpg" alt="Vahy" class="profile-pic">
+    </header>
+
+    <main class="career-container">
+        <section class="timeline-nav">
+            <h1 class="page-title">Career Path</h1>
+            <div class="timeline-wrapper">
+                
+                <div class="timeline-step active" onclick="updateCareer('ensibs')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">2025 - 2028</span>
+                        <h3>ENSIBS - France</h3>
+                        <p>Industrial Engineering 4.0</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step" onclick="updateCareer('asecna')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">May - Aug 2025</span>
+                        <h3>ASECNA - Madagascar</h3>
+                        <p>CNS Unit Internship</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step" onclick="updateCareer('ist-dtss')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">2024 - 2025</span>
+                        <h3>IST (Higher Institute of Technology)- Madagascar</h3>
+                        <p>DTSS Automated Systems</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step" onclick="updateCareer('lntpb')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">2024</span>
+                        <h3>LNTPB - Madagascar</h3>
+                        <p>Quality & Maintenance Intern</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step" onclick="updateCareer('ist-project')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">2023</span>
+                        <h3>IST - Project</h3>
+                        <p>Engineering Project</p>
+                    </div>
+                </div>
+
+                <div class="timeline-step" onclick="updateCareer('inscae')">
+                    <div class="dot"></div>
+                    <div class="step-info">
+                        <span class="step-date">2022 - 2030</span>
+                        <h3>INSCAE - Madagascar</h3>
+                        <p>Business Administration</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="details-display">
+            <div id="dynamic-content">
+                <div class="image-frame">
+                    <img id="detail-img" src="img/ensibs-campus.jpg" alt="ENSIBS">
+                </div>
+                <h2 id="detail-title">ENSIBS - Industrial Engineering 4.0</h2>
+                <div class="detail-tags">
+                    <span id="detail-location">Lorient, France</span>
+                </div>
+                <div class="detail-body">
+                    <p id="detail-desc">
+                        Specializing in Industry 4.0, Automation (TIA Portal), Flux Optimization, and Lean Manufacturing. Currently developing skills in high-level industrial systems and energy modeling.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Lorient, France | ✉️ <a href="contact.html">Get in touch</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
